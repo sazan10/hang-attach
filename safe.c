@@ -44,7 +44,7 @@ int main() {
     }
 
     // Set an alarm to terminate the program after 10 seconds
-    alarm(100);
+    alarm(10);
 
     // Send signals to threads in a loop
     while (1) {
