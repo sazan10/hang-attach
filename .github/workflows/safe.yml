@@ -26,7 +26,7 @@ jobs:
         tar -xzf DynamoRIO-Linux-10.91.19860.tar.gz
     - name: Build Multithreaded Application
       run: |
-        gcc -o safe safe_read.c 
+        gcc -o safe safe.c 
     - name: Run Application with DynamoRIO
       run: |
         # set +x
